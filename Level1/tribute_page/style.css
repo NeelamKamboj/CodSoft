@@ -197,6 +197,20 @@ figcaption p{
     text-align: center;
 }
 @media only screen and (max-width: 768px) {
+
+
+    .name-header {
+        height: auto; 
+    }
+
+    .name-decor {
+        font-size: 40px; 
+        padding-top: 10px; 
+    }
+
+    p {
+        font-size: 20px; 
+    }
     .navbar li a {
         font-size: 20px; 
     }
