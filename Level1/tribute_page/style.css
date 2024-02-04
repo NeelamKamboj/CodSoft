@@ -196,3 +196,28 @@ figcaption p{
 .footer{
     text-align: center;
 }
+@media only screen and (max-width: 768px) {
+    .navbar li a {
+        font-size: 20px; 
+    }
+
+    .name-decor {
+        font-size: 40px; 
+        padding-top: 10px; 
+    }
+
+    .singh-img {
+        width: 100%; 
+        max-width: 400px; 
+        margin: 20px auto; 
+        display: block;
+    }
+
+    .bio, .image {
+        width: 100%; 
+    }
+
+    .mem-img figure {
+        width: 100%; 
+    }
+}
